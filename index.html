@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1> Student Details</h1>
+    <form action = "index.html">
+        <label for = "fname"> First Name</label>
+      <input type = "text" id = "fname" maxlength="50" required/> 
+
+      <label for = "mname"> Middle Name</label>
+      <input type = "text" id = "mname" maxlength="50" required/> 
+
+      <label for = "lname"> Last Name</label>
+      <input type = "text" id="lname" maxlength="50" required/> 
+      <br>
+      <br>
+      <label for = "age"> Age</label>
+      <input type = "number" id = "age" maxlength="50" required/> 
+      <br>
+      <br>
+      <label for = "email"> Email</label>
+      <input type = "email" id="email" required/> 
+
+      <br>
+      <br>
+      <label for = "doj"> Date of Joining</label>
+      <input type = "date" id="doj" required/> 
+
+      <br>
+      <br>
+      <label for = "pass"> Password</label>
+      <input type = "password" id="pass" required/> 
+      <br>
+      <br>
+      <p> Select subsidiary</p>
+      <input type = "radio" name = "subsidiary" id="CCL" required/>  <label for = "CCL"> CCL</label>
+      <input type = "radio" name = "subsidiary" id="MCL" reqCCLuired/>  <label for = "MCL"> MCL</label>
+      <input type = "radio" name = "subsidiary" id="NCL" checked/> <label for = "NCL"> NCL</label>
+      <input type = "radio" name = "subsidiary" id="CMPDIL" required/> <label for = "CMPDIL"> CMPDIL</label>
+      <input type = "radio" name = "subsidiary" id="WCL" required/>  <label for = "WCL"> WCL</label>
+
+      <br>
+      <br>
+      <label for = "category"> Employee Category</label>
+      <select name="category" id="category">
+        <option value="DR">Daily rated</option>
+        <option value="MR">Monthly Rated</option>
+        <option value="Exe">Executive</option>
+      </select>
+      <br>
+      <br>
+      <label for = "feedback"> Employee feedback</label>
+      <textarea name = "feedback" id = "feedback" rows = 15 cols="50" placeholder="please write your feedback"></textarea>
+      
+
+      <br>
+      <br>
+      <input type = "Submit" />
+      <input type = "reset" />
+    
+    </form>
+</body>
+</html>
